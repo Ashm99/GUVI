@@ -1,10 +1,6 @@
-package task2;
-
+package question1;
+//A PERSON CLASS WITH NAME AND AGE PROPERTIES
 public class Person { 
-	//This same person class is used in 
-	//question 1 (Main1.java) to create an object and
-	//question 4 (Employee.java) as base class for the Employee class
-	//so, this class is written in such a way to be used in both questions
 	
 	private String name;
 	private int age = 18; //Default age

@@ -1,4 +1,4 @@
-package task1;
+package question6;
 
 //A PROGRAM TO PRINT BELOW PATTERN
 //55555

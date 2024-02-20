@@ -1,15 +1,12 @@
-package task2;
+package question2;
 
-//QUESTION 2
-//A PRODUCT CLASS with PID, PRICE AND QUANTITY & AN XYZ class WITH MAIN METHOD
-
-//the product class is written in this same package
-
+//AN XYZ CLASS THAT CREATES AND WORKS WITH PRODUCT OBJECTS
 import java.util.Scanner;
 
 public class XYZ {
+	
+	//a method to find the total amount spent on all the products in the products argument
 	public static double totalAmountSpent(Product[] products) {
-		//a method to find the total amount spent on all the products in the products argument 
 		double amount = 0.00;
 		for(Product p : products) {
 			amount += (p.getPrice() * p.getQuantity());

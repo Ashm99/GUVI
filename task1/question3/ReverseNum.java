@@ -1,4 +1,4 @@
-package task1;
+package question3;
 
 //A PROGRAM TO REVERSE THE GIVEN NUMBER
 //Have considered negative inputs as well
@@ -13,8 +13,11 @@ public class ReverseNum {
 		System.out.println("Enter a number: ");
 		int n = scan.nextInt();
 		boolean isNegative = false;
-		if(n < 0) { //checking if input number is -ve
-			isNegative = true; //if yes, converting it into +ve for execution
+		
+		//checking if input number is -ve
+		//if yes, converting it into +ve for execution
+		if(n < 0) { 
+			isNegative = true; 
 			n *= -1;
 		}
 		int m = 0;
@@ -22,7 +25,9 @@ public class ReverseNum {
 			m = (m * 10) + (n % 10);
 			n/=10;
 		}
-		if(isNegative) System.out.println(-m); //printing the num as -ve as it was.
+		
+		//printing the num as -ve if it was -ve.
+		if(isNegative) System.out.println(-m); 
 		else System.out.println(m);
 		scan.close();
 	}

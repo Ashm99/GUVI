@@ -1,27 +1,34 @@
-package task2;
+package question3;
 
-//Question 3 - ACCOUNT CLASS WITH DATA MEMBER BALANCE
+// ACCOUNT CLASS WITH DATA MEMBER BALANCE
 public class Main3 {
 	public static class Account{
 		private int accountNo;
 		private double balance;
+		
 		Account(){ //no argument constructor
 			this.accountNo = -1;
 			this.balance = 0;
 		}
-		Account(int accNo, double bal){ //two argument constructor
+		//two argument constructor
+		Account(int accNo, double bal){ 
 			this.accountNo = accNo;
 			this.balance = bal;
 		}
+		//method to deposit amount into the account
 		public void deposit(double amount) {
 			this.balance += amount;
 			System.out.format("Deposit successful!\nCurrent balance: Rs. %.2f\n\n", balance);
 		}
+		
+		//method to withdraw amount from the account
 		public void withdraw(double amount) {
 			this.balance -= amount;
 			System.out.format("Withdraw successful!\nRemaining balance: Rs. %.2f\n\n", balance);
 		}
-		public void displayBalance() { //display the balance of the given account
+		
+		//display the balance of the given account
+		public void displayBalance() { 
 			System.out.println("Account number: " + accountNo);
 			System.out.format("Balance: Rs. %.2f\n", balance);
 			System.out.println();

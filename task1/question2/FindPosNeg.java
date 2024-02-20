@@ -1,4 +1,4 @@
-package task1;
+package question2;
 
 //A PROGRAM TO FIND WHETHER A GIVEN NUMBER IS POSTIIVE OR NEGATIVE
 

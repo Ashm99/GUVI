@@ -1,4 +1,4 @@
-package task1;
+package question1;
 //A PROGRAM TO PRINT NUMBERS FROM 10 T0 50
 public class Print10to50 {
 

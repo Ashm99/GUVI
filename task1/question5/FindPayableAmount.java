@@ -1,4 +1,4 @@
-package task1;
+package question5;
 
 //A PROGRAM TO FIND THE FINAL PAYABLE AMOUNT AFTER DISCOUNT
 //Note: The input is considered as double as no constraint was given
@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class FindPayableAmount {
 
 	public static void main(String[] args) {
+		//Getting input from STDIN
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Enter the amount: ");
