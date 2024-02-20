@@ -1,7 +1,9 @@
 package task2;
+//QUESTION 4
+//EMPLOYEE CLASS EXTENDING PERSON CLASS
 
 public class Employee extends Person{
-	//Person class written in the same package
+	//Person class written in this same package
 	
 	private int employeeID;
 	private double salary;

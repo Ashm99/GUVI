@@ -1,7 +1,9 @@
 package task2;
 
-//QUESTION 1.2
+//QUESTION 2
 //A PRODUCT CLASS with PID, PRICE AND QUANTITY & AN XYZ class WITH MAIN METHOD
+
+//the product class is written in this same package
 
 import java.util.Scanner;
 

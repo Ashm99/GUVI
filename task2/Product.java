@@ -1,5 +1,5 @@
 package task2;
-
+//Product class meant to be used in question 2 i.e.XYZ class
 public class Product{
 	private int pID;
 	private double price;
