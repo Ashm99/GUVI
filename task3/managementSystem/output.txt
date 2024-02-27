@@ -1,0 +1,212 @@
+PROGRAM OUTPUT:
+
+Hi User!
+Welcome to the Book Management System.
+Enter a number and press 'Enter' to perform the below actions.
+
+
+Choose any action to perform:
+1 -> Add a Book to the library
+2 -> Remove a Book from the library
+3 -> Replace a Book from the library
+4 -> Search for a Book in the library
+5 -> Display all the Books in the library
+0 -> Close the program
+Input : 
+1
+Enter the Book title: 
+ABCD
+Enter the Author's name : 
+me
+New book created successfully with Book ID: 1
+New Book successfully added to the library!
+
+Choose any action to perform:
+1 -> Add a Book to the library
+2 -> Remove a Book from the library
+3 -> Replace a Book from the library
+4 -> Search for a Book in the library
+5 -> Display all the Books in the library
+0 -> Close the program
+Input : 
+5
+
+Below are the books in the library: 
+Book title   : ABCD
+Author       : me
+Book ID      : 1
+Availability : Available
+
+-End of book list-
+
+
+Choose any action to perform:
+1 -> Add a Book to the library
+2 -> Remove a Book from the library
+3 -> Replace a Book from the library
+4 -> Search for a Book in the library
+5 -> Display all the Books in the library
+0 -> Close the program
+Input : 
+2
+Enter ID of the book to be removed: 
+1
+
+Removing the below book from library: 
+Book title   : ABCD
+Author       : me
+Book ID      : 1
+Availability : Available
+
+Book removed.
+
+Choose any action to perform:
+1 -> Add a Book to the library
+2 -> Remove a Book from the library
+3 -> Replace a Book from the library
+4 -> Search for a Book in the library
+5 -> Display all the Books in the library
+0 -> Close the program
+Input : 
+1
+Enter the Book title: 
+abcdefg
+Enter the Author's name : 
+Just Me.
+New book created successfully with Book ID: 1
+New Book successfully added to the library!
+
+Choose any action to perform:
+1 -> Add a Book to the library
+2 -> Remove a Book from the library
+3 -> Replace a Book from the library
+4 -> Search for a Book in the library
+5 -> Display all the Books in the library
+0 -> Close the program
+Input : 
+5
+
+Below are the books in the library: 
+Book title   : abcdefg
+Author       : Just Me.
+Book ID      : 1
+Availability : Available
+
+-End of book list-
+
+
+Choose any action to perform:
+1 -> Add a Book to the library
+2 -> Remove a Book from the library
+3 -> Replace a Book from the library
+4 -> Search for a Book in the library
+5 -> Display all the Books in the library
+0 -> Close the program
+Input : 
+3
+Enter ID of the book to be replaced: 
+1
+Enter details of the new book: 
+Enter Book title: 
+How to talk to Anyone
+Enter Author name: 
+Leil Lowndes
+Replaced the book with the new one.
+
+
+Choose any action to perform:
+1 -> Add a Book to the library
+2 -> Remove a Book from the library
+3 -> Replace a Book from the library
+4 -> Search for a Book in the library
+5 -> Display all the Books in the library
+0 -> Close the program
+Input : 
+5
+
+Below are the books in the library: 
+Book title   : How to talk to Anyone
+Author       : Leil Lowndes
+Book ID      : 1
+Availability : Available
+
+-End of book list-
+
+
+Choose any action to perform:
+1 -> Add a Book to the library
+2 -> Remove a Book from the library
+3 -> Replace a Book from the library
+4 -> Search for a Book in the library
+5 -> Display all the Books in the library
+0 -> Close the program
+Input : 
+4
+Enter ID of the book to find: 
+2
+Search completed!
+No book found with the given Book ID.
+
+Choose any action to perform:
+1 -> Add a Book to the library
+2 -> Remove a Book from the library
+3 -> Replace a Book from the library
+4 -> Search for a Book in the library
+5 -> Display all the Books in the library
+0 -> Close the program
+Input : 
+4
+Enter ID of the book to find: 
+5
+Search completed!
+No book found with the given Book ID.
+
+Choose any action to perform:
+1 -> Add a Book to the library
+2 -> Remove a Book from the library
+3 -> Replace a Book from the library
+4 -> Search for a Book in the library
+5 -> Display all the Books in the library
+0 -> Close the program
+Input : 
+4
+Enter ID of the book to find: 
+1
+Search completed!
+Below is the required Book: 
+Book title   : How to talk to Anyone
+Author       : Leil Lowndes
+Book ID      : 1
+Availability : Available
+
+
+Choose any action to perform:
+1 -> Add a Book to the library
+2 -> Remove a Book from the library
+3 -> Replace a Book from the library
+4 -> Search for a Book in the library
+5 -> Display all the Books in the library
+0 -> Close the program
+Input : 
+5
+
+Below are the books in the library: 
+Book title   : How to talk to Anyone
+Author       : Leil Lowndes
+Book ID      : 1
+Availability : Available
+
+-End of book list-
+
+
+Choose any action to perform:
+1 -> Add a Book to the library
+2 -> Remove a Book from the library
+3 -> Replace a Book from the library
+4 -> Search for a Book in the library
+5 -> Display all the Books in the library
+0 -> Close the program
+Input : 
+0
+Closing the program...
+Program closed.

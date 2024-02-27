@@ -1,12 +1,11 @@
 package managementSystem;
-//change addBook method to accept the values for the Book object
+
 import java.util.Scanner;
 
 public class Library {
 	private Book[] books;
 	private int bookCount;
 	private int bookCapacity;
-//	private Scanner scan = new Scanner(System.in);
 	
 	public Library() {
 		this.books = new Book[5];
@@ -27,49 +26,22 @@ public class Library {
 		return bookCapacity;
 	}
 	
-	//A method to add a book into the library
-		public void addBook() {
-			//extending the size of the books array if full capacity is reached
-			if(this.bookCount == (this.bookCapacity)) {
-				System.out.println("Book storage limit reached!\nExtending book capacity in the library!");
-				extend(books);
-				System.out.println("Extended book capacity by 5 books!");
-			}
-			Book book = new Book(this.bookCount + 1); //Passing the default ID of the next book
-			books[this.bookCount] = book;
-			System.out.println("New Book successfully added to the library!");
-			this.bookCount++;
+	//A method to create and add a book into the library
+	//invokes the single parameterized constructor from Book class
+	//if the capacity is already filled, extends the book array by calling extend() method
+	public void addBook(Scanner scan) {
+		//extending the size of the books array if full capacity is reached
+		if(this.bookCount == (this.bookCapacity)) {
+			System.out.println("Book storage limit reached!\nExtending book capacity in the library!");
+			extend(books);
+			System.out.println("Extended book capacity by 5 books!");
 		}
-
-
-//	//A method to add a book into the library
-//	public void addBook(Book book) {
-//		//extending the size of the books array if full capacity is reached
-//		if(this.bookCount == (this.bookCapacity)) {
-//			System.out.println("Book storage limit reached!\nExtending book capacity in the library!");
-//			extend(books);
-//			System.out.println("Extended book capacity by 5 books!");
-//		}
-//		//Checking if another book exists with the new book's ID
-//		//if it exists we will ask the user to provide a new unique id and set this id to the new book
-//		if(idIsAvailable(book.getBookID())){
-//			try (Scanner scan = new Scanner(System.in)) {
-//				int tempID;
-//				//A do while loop to check if the input given by the user is again unique or not
-//				do{
-//					System.out.println("Another book already exists with the given new book's ID.\nEnter a new ID: ");
-//					String stringID = scan.nextLine();
-//					tempID = Integer.parseInt(stringID);
-//				}while(idIsAvailable(tempID));
-//				
-//				//setting the unique id to the book that is to be added to the books array
-//				book.setBookID(tempID);
-//			}
-//		}
-//		books[this.bookCount] = book;
-//		System.out.println("Added a Book to the library!");
-//		this.bookCount++;
-//	}
+		//Passing the default ID of the next book to the Book constructor
+		Book book = new Book(this.bookCount + 1, scan);
+		books[this.bookCount] = book;
+		System.out.println("New Book successfully added to the library!");
+		this.bookCount++;
+	}
 	
 	
 	//To increase the book capacity by 5 books
@@ -128,18 +100,18 @@ public class Library {
 			this.books[bookIndex].displayBookData();
 		}
 	}
-	
-	
-	//returns true if already a book exists with the given id
-	//Used only when we need to know whether a book is present in the array
-	private boolean idIsAvailable(int id) {
-		for(int i = 0; i < this.bookCount; i++) {
-			if(this.books[i].getBookID() == id) {
-				return true;
-			}
-		}
-		return false;
-	}
+//	
+//	
+//	//returns true if already a book exists with the given id
+//	//Used only when we need to know whether a book is present in the array
+//	private boolean idIsAvailable(int id) {
+//		for(int i = 0; i < this.bookCount; i++) {
+//			if(this.books[i].getBookID() == id) {
+//				return true;
+//			}
+//		}
+//		return false;
+//	}
 	
 
 	//to find the index of a Book object in the books Array with a given Book ID
@@ -156,25 +128,24 @@ public class Library {
 
 	//A method to replace a book object
 	//
-	public void replaceBook(int id) {
-		try (Scanner scan1 = new Scanner(System.in)) {
-			int index = findBookIndex(id);
-			if(index == -1) {
-				System.out.println("Book with the given ID not found!\nPlease check the given ID.");
-				return;
-			}
-			System.out.println("Enter details of the new book: ");
-			System.out.println("Enter Book title: ");
-			String title = scan1.nextLine();
-			this.books[index].setTitle(title);
-
-			System.out.println("Enter Author name: ");
-			String name = scan1.nextLine();
-			this.books[index].setAuthor(name);
-			
-			//since a new book is added, it will be available in the library by default
-			this.books[index].setAvailability(true);
+	public void replaceBook(int id, Scanner scan) {
+		int index = findBookIndex(id);
+//		Scanner scan = new Scanner(System.in);
+		if(index == -1) {
+			System.out.println("Book with the given ID not found!\nPlease check the given ID.");
+			return;
 		}
+		System.out.println("Enter details of the new book: ");
+		System.out.println("Enter Book title: ");
+		String title = scan.nextLine();
+		this.books[index].setTitle(title);
+
+		System.out.println("Enter Author name: ");
+		String name = scan.nextLine();
+		this.books[index].setAuthor(name);
+		
+		//since a new book is added, it will be available in the library by default
+		this.books[index].setAvailability(true);
 		System.out.println("Replaced the book with the new one.\n");
 	}
 

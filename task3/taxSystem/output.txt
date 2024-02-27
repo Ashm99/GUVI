@@ -1,0 +1,23 @@
+Enter the data of an employee and a product to print their taxes
+
+Enter employee name: 
+Aaron Stone
+Enter employee id: 
+12
+Enter employee salary: 
+450000
+-----------------------------
+Employee name    : Aaron Stone
+Salary (p.a.)    : ₹450,000.00
+Income Tax (p.a.): ₹47,250.00
+-----------------------------
+Enter product id: 
+12
+Enter product price: 
+3299
+Enter product quantity: 
+15
+-----------------------------
+Product id         : 12
+Product price      : ₹3,299.00
+Sales Tax(per unit): ₹230.93
