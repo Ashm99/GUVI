@@ -1,3 +1,5 @@
+TAXSYSTEM PROGRAM'S OUTPUT
+
 Enter the data of an employee and a product to print their taxes
 
 Enter employee name: 
