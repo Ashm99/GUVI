@@ -1,0 +1,76 @@
+This file consists of the output of the Main.java class in hashMapExcercise package
+
+ADDITION: 
+Added Ameer to the HashMap.
+Student data: 
+Student name: Ameer
+Grade       : 87
+
+----------------------
+
+Added Mani to the HashMap.
+Student data: 
+Student name: Ameer
+Grade       : 87
+
+Student data: 
+Student name: Mani
+Grade       : 79
+
+----------------------
+
+Added Vishal to the HashMap.
+Student data: 
+Student name: Ameer
+Grade       : 87
+
+Student data: 
+Student name: Mani
+Grade       : 79
+
+Student data: 
+Student name: Vishal
+Grade       : 92
+
+----------------------
+
+Added Vishnu to the HashMap.
+Student data: 
+Student name: Ameer
+Grade       : 87
+
+Student data: 
+Student name: Vishnu
+Grade       : 84
+
+Student data: 
+Student name: Mani
+Grade       : 79
+
+Student data: 
+Student name: Vishal
+Grade       : 92
+
+----------------------
+
+REMOVAL: 
+Removed Mani from the HashMap.
+Student data: 
+Student name: Ameer
+Grade       : 87
+
+Student data: 
+Student name: Vishnu
+Grade       : 84
+
+Student data: 
+Student name: Vishal
+Grade       : 92
+
+----------------------
+
+DISPLAY: 
+Student data: 
+Student name: Ameer
+Grade       : 87
+

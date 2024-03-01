@@ -1,0 +1,34 @@
+This txt file holds the output of the VoterManagementSystem.java program inside voter package
+
+Invalid age for voter!
+Voter ID: 12341
+Age     : 17
+Name    : Aashiq
+
+Invalid age for voter!
+Voter ID: 12343
+Age     : 16
+Name    : Sakthi
+
+
+Printing data of all voters: 
+Voter ID: 12341
+Age     : 17
+Name    : Aashiq
+--------------------
+Voter ID: 12342
+Age     : 24
+Name    : Pathaan
+--------------------
+Voter ID: 12343
+Age     : 16
+Name    : Sakthi
+--------------------
+Voter ID: 12344
+Age     : 19
+Name    : Prakash
+--------------------
+Voter ID: 12345
+Age     : 20
+Name    : Sakshi
+--------------------

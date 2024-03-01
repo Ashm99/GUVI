@@ -1,0 +1,42 @@
+OUTPUT OF THE STUDENTMANAGEMENT SYSTEM PROGRAM:
+
+Name should not contain any numbers or special cases!
+Enter a valid name without numbers or special characters: 
+Ashok*
+Name should not contain any numbers or special cases!
+Enter a valid name without numbers or special characters: 
+Ashok(
+Name should not contain any numbers or special cases!
+Enter a valid name without numbers or special characters: 
+Ashok%
+Name should not contain any numbers or special cases!
+Enter a valid name without numbers or special characters: 
+Ashok Kumar M
+Age must be in the range from 15 to 21!
+Enter a valid age from 15 to 21(inclusive): 
+35
+Age must be in the range from 15 to 21!
+Enter a valid age from 15 to 21(inclusive): 
+675
+Age must be in the range from 15 to 21!
+Enter a valid age from 15 to 21(inclusive): 
+14
+Enter a valid age from 15 to 21(inclusive): 
+Age must be in the range from 15 to 21!
+2
+Age must be in the range from 15 to 21!
+Enter a valid age from 15 to 21(inclusive): 
+14
+Age must be in the range from 15 to 21!
+Enter a valid age from 15 to 21(inclusive): 
+23
+Age must be in the range from 15 to 21!
+Enter a valid age from 15 to 21(inclusive): 
+22
+Age must be in the range from 15 to 21!
+Enter a valid age from 15 to 21(inclusive): 
+21
+Name   : Ashok Kumar M
+Age    : 21
+Roll No: 12
+Course : BT
