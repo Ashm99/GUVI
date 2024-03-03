@@ -1,0 +1,9 @@
+Below is the output of the Main class in question4 package
+It receives the input birthdate and prints the date according to the birthdate
+
+
+Enter your birthdate(yyyy-mm-dd): 
+1999-12-12
+
+Output: 
+Your age is: 24 years, 2 months and 20 days

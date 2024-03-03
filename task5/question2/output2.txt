@@ -1,0 +1,3 @@
+Below is the result after printing the non-empty Strings
+
+[abc, bc, efg, abcd, jkl]

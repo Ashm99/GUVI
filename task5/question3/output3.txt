@@ -1,0 +1,3 @@
+Below is the result List after printing the names that start with "A"
+
+[Anand, Aaron, Aruvi, Arunachalam, Agvika]

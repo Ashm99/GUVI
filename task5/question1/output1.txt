@@ -1,0 +1,3 @@
+Below is the result after converting the given stream values to uppercase
+
+[ABC, D, EF]
