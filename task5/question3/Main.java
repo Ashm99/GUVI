@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+//A program to print student names starting with "A" using stream operations
 public class Main {
 
 	public static void main(String[] args) {

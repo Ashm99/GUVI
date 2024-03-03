@@ -3,6 +3,7 @@ package question1;
 import java.util.List;
 import java.util.stream.Stream;
 
+//A program to convert strings to upper case using stream operations
 public class Main {
 
 	public static void main(String[] args) {

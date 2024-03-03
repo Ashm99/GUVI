@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.time.Period;
 import java.util.Scanner;
 
+//A program to print the age as per the input using LocalDate class
 public class Main {
 
 	public static void main(String[] args) {
