@@ -10,13 +10,13 @@ sal decimal(6,2),
 comm decimal(6,2),
 deptno int
 );
-describe Empl;
-drop table Empl;
+-- describe Empl;
+-- drop table Empl;
 
 insert into Empl values
 (8369, "SMITH", "CLERK", 8902, "1990-12-18", 800, NULL, 20);
 
-select * from Empl;
+-- select * from Empl;
 
 insert into Empl values
 (8499, "ANYA", "SALESMAN", 8698, "1991-02-20", 1600, 300, 30),
