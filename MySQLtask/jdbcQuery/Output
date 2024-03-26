@@ -1,0 +1,20 @@
+//Below is the output of the JDBCConnectionQuery.java file written in the jdbcQuery package
+
+Connection established successfully!
+
+Employee table created successfully!
+
+Data inserted into table Employee_jdbc successfully!
+
+Table: Employee_jdbc
+-----------------------------------------------------
+| ECode | Name                 | Age   | Salary     |
+-----------------------------------------------------
+| 101   | Jenny                | 25    | 10000      |
+| 102   | Jacky                | 30    | 20000      |
+| 103   | Joe                  | 20    | 40000      |
+| 104   | John                 | 40    | 80000      |
+| 105   | Shameer              | 25    | 90000      |
+-----------------------------------------------------
+
+Connection closed.
