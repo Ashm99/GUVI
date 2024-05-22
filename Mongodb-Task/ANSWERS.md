@@ -7,7 +7,7 @@ The queries have been written targetting the mongoshell and the output images ar
 ### Questions and Queries:
 
 #### 1. Find all the information about each products
-* db.Product.find().toArray();
+* db.Product.find().toArray(); <br>
 In this, I have used .toArray() to avoid typing 'it' in the shell
 
 #### 2. Find the product price which are between 400 to 800
